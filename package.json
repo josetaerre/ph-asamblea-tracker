@@ -1,0 +1,23 @@
+{
+  "name": "ph-asamblea-tracker",
+  "version": "1.0.0",
+  "description": "CAP based management system for Panamanian PH Assemblies",
+  "repository": "mock-repo",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^8",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "db": "sqlite"
+    }
+  }
+}
